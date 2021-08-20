@@ -38,4 +38,10 @@ body {
 
  .contact{
      background-color: #ffe6e1;
+     color: #3d3b46;
  }
+
+
+footer{
+    padding: 5rem;
+}
