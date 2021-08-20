@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
         <div class="container">
             <span class="navbar-brand mb-0 h1">Fernanda Pizarro</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -26,12 +26,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item active"></li>
             <a class="nav-link" href="#about">Acerca de mí <span
             class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#work">Trabajos</a>
+            <a class="nav-link" href="#portafolio">Portafolio</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#contact">Contacto</a>
@@ -72,59 +72,239 @@
 
    </header>
 
-   <section class="container my-5">
-      <h2 class="my-4 text-center">Acerca de mí</h2>
-        <div class="row text-center my-5">
-            <div class="col-md-4">
-                <h4 class="my-3">Diseñadora Gráfica</h4>
-                <p class="my-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aspernatur minus facere? Impedit magnam blanditiis obcaecati! Deserunt porro culpa asperiores illum natus praesentium? Aspernatur molestiae ipsa quod illum, velit iure.</p>
-                <i class="fas fa-adjust fa-1x my-3"></i>
+   <section id="about" class="about container-fluid p-3">
+      <h2 class="my-4 text-center">ACERCA DE MÍ</h2>
+      <div class="container">
+            <div class="row text-center my-5">
+                <div class="icons col-md-3  p-4 mx-auto">
+                    <h4 class="my-3">Diseñadora Gráfica</h4>
+                    <hr>
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aspernatur minus facere? Impedit magnam blanditiis obcaecati! Deserunt porro culpa asperiores illum natus praesentium? Aspernatur molestiae ipsa quod illum, velit iure.</p>
+                    <i id="circulo" class="fas fa-pen-nib fa-2x my-3"></i>
+                </div>
+                <div class="icons col-md-3  p-4 mx-auto">
+                    <h4 class="my-3">Diseñadora Web</h4>
+                    <hr>
+                    <p class="my-3 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate incidunt blanditiis, sequi porro, repellendus aut iure perferendis aperiam ipsa itaque molestiae quos accusantium, culpa necessitatibus amet architecto deleniti!</p>
+                    <i id="circulo" class="fas fa-desktop fa-2x my-3"></i>
+                </div>
+                <div class="icons col-md-3 p-4 mx-auto">
+                    <h4 class="my-3">UX/UI Designer </h4>
+                    <hr>
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto impedit facilis molestiae soluta explicabo, voluptate, repudiandae illum iure nostrum facere a quisquam? Fugit sit soluta impedit maxime rem quibusdam?</p>
+                    <i id="circulo" class="fas fa-users fa-2x my-3"></i>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4 class="my-3">Diseñadora Web</h4>
-                <p class="my-3 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate incidunt blanditiis, sequi porro, repellendus aut iure perferendis aperiam ipsa itaque molestiae quos accusantium, culpa necessitatibus amet architecto deleniti!</p>
-                <i class="fas fa-adjust fa-1x my-3"></i>
-            </div>
-            <div class="col-md-4">
-                <h4 class="my-3">Designer UX/UI</h4>
-                <p class="my-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto impedit facilis molestiae soluta explicabo, voluptate, repudiandae illum iure nostrum facere a quisquam? Fugit sit soluta impedit maxime rem quibusdam?</p>
-                <i class="fas fa-adjust fa-1x my-3"></i>
-            </div>
-        </div>
+      </div>     
    </section>
 
-   <section class="portafolio">
-    <div class="container">
-        <div class="card-deck">
-            <div class="card">
-            <img src="assets/img/card-1.jpg" class="card-img-top" alt="card-1">
-            <div class="card-body">
-                <h5 class="card-title">LifeFitness</h5>
-                <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#asado">Ver más</a>
-                
-            </div>
-            </div>
+   <section id="portafolio" class="portafolio py-5">
+       <h2 class="text-center">PORTAFOLIO</h2>
+        <div class="container my-5">
+            <div class="card-deck">
+                <div class="card">
+                <img src="assets/img/card-1.jpg" class="card-img-top" alt="card-1">
+                <div class="card-body">
+                    <h5 class="card-title">Groupon</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#groupon">Ver más</a>
+                    
+                </div>
+                </div>
 
-            <div class="card">
-            <img src="assets/img/card-2.jpg" class="card-img-top" alt="card-2">
-            <div class="card-body">
-                <h5 class="card-title">Vecibanana</h5>
-                <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#papas">Ver más</a>
-            </div>
-            </div>
+                <div class="card">
+                <img src="assets/img/card-2.jpg" class="card-img-top" alt="card-2">
+                <div class="card-body">
+                    <h5 class="card-title">Vecibanana</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#vecibanana">Ver más</a>
+                </div>
+                </div>
 
-            <div class="card">
-            <img src="assets/img/card-3.jpg" class="card-img-top" alt="card-3">
-            <div class="card-body">
-                <h5 class="card-title">Diageo</h5>
-                <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#salmones">Ver más</a>
-            </div>
+                <div class="card">
+                <img src="assets/img/card-3.jpg" class="card-img-top" alt="card-3">
+                <div class="card-body">
+                    <h5 class="card-title">Diageo</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#diageo">Ver más</a>
+                </div>
+                </div>
             </div>
         </div>
 
+        <div class="container my-5">
+            <div class="card-deck">
+                <div class="card">
+                <img src="assets/img/card-4.jpg" class="card-img-top" alt="card-4">
+                <div class="card-body">
+                    <h5 class="card-title">Jerplaz</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#jerplaz">Ver más</a>
+                    
+                </div>
+                </div>
+
+                <div class="card">
+                <img src="assets/img/card-5.jpg" class="card-img-top" alt="card-5">
+                <div class="card-body">
+                    <h5 class="card-title">Lifefitness</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#lifefitness">Ver más</a>
+                </div>
+                </div>
+
+                <div class="card">
+                <img src="assets/img/card-6.jpg" class="card-img-top" alt="card-6">
+                <div class="card-body">
+                    <h5 class="card-title">Vivo</h5>
+                    <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#vivo">Ver más</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+   </section>
+
+    <div class="modal fade" id="groupon" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Groupon</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>    
+            <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="groupon">
+            <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="groupon">
+            <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="groupon">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
     </div>
 
-   </section>
+    <div class="modal fade" id="vecibanana" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Vecibanana</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>
+            <img src="assets/img/card-2.jpg" class="img-fluid my-3" alt="vecibanana">
+            <img src="assets/img/card-2.jpg" class="img-fluid my-3" alt="vecibanana">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="diageo" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Diageo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>
+            <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="diageo">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="jerplaz" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Jerplaz</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>    
+            <img src="assets/img/card-4.jpg" class="img-fluid my-3" alt="jerplaz">
+            <img src="assets/img/card-4.jpg" class="img-fluid my-3" alt="jerplaz">
+            <img src="assets/img/card-4.jpg" class="img-fluid my-3" alt="jerplaz">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="lifefitness" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Lifefitness</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>
+            <img src="assets/img/card-5.jpg" class="img-fluid my-3" alt="lifefitness">    
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="vivo" tabindex="-1"    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Vivo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, possimus nisi? Eius porro doloribus ullam labore laborum! Voluptates alias iusto non, minus dignissimos expedita maiores eos maxime autem, repudiandae laborum?</p>    
+            <img src="assets/img/card-6.jpg" class="img-fluid my-3" alt="vivo">
+            <img src="assets/img/card-6.jpg" class="img-fluid my-3" alt="vivo">
+            <img src="assets/img/card-6.jpg" class="img-fluid my-3" alt="vivo">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact container-fluid py-4">
+        <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
+        <p class="my-4 text-center">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+    
+    
+        <div class="container">
+            <div data-tf-widget="xBQOncXy" style="width:100%;height:400px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+        
+    </section>
+      
+          
+      <footer class="bg-dark text-center text-light p-3">
+          <p>Fernanda Pizarro 2021. Todos los derechos reservados.</p>
+      </footer>
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

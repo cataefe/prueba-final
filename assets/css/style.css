@@ -1,4 +1,41 @@
 body {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
     font-size: 0.75rem;
+    color: gray;
     }
+
+.navbar{
+    background-color: #f9ed8c;
+}
+
+
+.about{
+    background-color: #f8f8f6;
+    color: #3d3b46;
+}    
+
+.icons i{
+    color: white;
+    padding-top: 0.75rem;
+}
+
+.icons h4{
+    color: #3d3b46;
+}
+
+.portafolio h2{
+    color: #3d3b46;
+}
+
+#circulo{
+    height:50px;
+    width:50px;
+    background: #f7bec7;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+ }
+
+ .contact{
+     background-color: #ffe6e1;
+ }
